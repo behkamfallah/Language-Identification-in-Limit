@@ -22,6 +22,19 @@ The code now includes:
 
 The symbolic experiments do not require `torch`. If PyTorch is unavailable, you can still run the main suite with `--skip-learned`.
 
+## Installation
+
+Create and activate a virtual environment, then install the project requirements:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+```
+
+This installs both `matplotlib` and `torch`. If you only want the symbolic experiments, you can still run them with the same environment, or skip the learned bridge explicitly with `--skip-learned`.
+
 ## Quick Start
 
 From the project root:
