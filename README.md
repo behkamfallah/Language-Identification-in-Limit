@@ -27,7 +27,6 @@ The symbolic experiments do not require `torch`. If PyTorch is unavailable, you 
 From the project root:
 
 ```bash
-cd /Users/behkamfallah/Documents/lang-id
 python3 language_limit_report_code.py
 ```
 
